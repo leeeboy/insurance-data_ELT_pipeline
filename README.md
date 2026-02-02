@@ -3,7 +3,8 @@
 ## Project Description
 This project demonstrates an end-to-end ELT (Extract, Load, Transform) pipeline for insurance claims and customer data. The pipeline generates synthetic customer and claims data, loads it into MongoDB, extracts and replicates it into Snowflake, transforms it using DBT, and finally visualizes insights in Power BI. The pipeline provides actionable analytics for claim types, fraud detection, customer distribution, and total claim amounts.
 
-<img width="1235" height="716" alt="image" src="https://github.com/user-attachments/assets/1368fafd-e061-43be-b58d-3869e3797cb5" />
+<img width="1235" height="716" alt="image" src="https://github.com/user-attachments/assets/17265b50-94ac-469c-8872-63dbb011b3ca" />
+
 
 Key features include:
 - Synthetic data generation for customers and claims
@@ -15,7 +16,9 @@ Key features include:
 ---
 
 ## Architecture
-<img width="783" height="280" alt="image" src="https://github.com/user-attachments/assets/de06595e-af25-4d6a-b5bb-2140fbbad036" />
+
+<img width="1097" height="392" alt="image" src="https://github.com/user-attachments/assets/61586ee9-f145-4d88-84a6-e3cd62782b79" />
+
 
 ### Data Generation
 - data_generator.py generates synthetic customer and claims data.
